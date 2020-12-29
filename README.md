@@ -1,7 +1,7 @@
 # 💼 JobFinder 💼
  
 
-<img src="./public/img/jobWebMobile.gif" alt="JobFinder">
+<img src="./public/img/jobWebMobile.gif">
 <p></p>
 
 # 🔎 Sobre : 
