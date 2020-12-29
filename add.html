@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job finder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/css/style.css"> 
+</head>
+<body>
+   <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Job finder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Ver vagas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="add.html" >Abrir vagas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   </header>
+
+   <div class="container" id="add-form-container">
+       <div class="row">
+           <div class="col-md-12">
+               <h1 class="tex-center">Divulgue a vaga preenchendo o formulario</h1>
+           </div>
+
+           <div id="form-box" class="col-md-12">
+               <h2>Preencha os  dados da melhor forma possivel, para encontrar mais rapido seu dev!</h2>
+               <form action="">
+                   <div class="form-group">
+                       <label for="title"> Titulo da vaga: </label>
+                       <input type="text" class="form-control" id="title" name="title" placeholder="Digite o Titulo da vaga" required>
+                       <small id="title-help" class="form-text-muted">O titulo é muito importante, seja claro e objetivo</small>
+                   </div>
+
+                   <div class="form-group">
+                    <label for="description"> Descrição: </label>
+                    <textarea type="text" class="form-control" id="description" name="description" placeholder="Descreva as atividades do desenvolvedor..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> E-mail para contato: </label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Digite o E-mail para contato" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="salary"> Salario oferecido: </label>
+                    <input type="text" class="form-control" id="salary" name="salary" placeholder="Digite o salario da vaga" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="company"> Empresa Contratante: </label>
+                    <input type="text" class="form-control" id="company" name="company" placeholder="Digite a empresa que vai contratar" required>
+                </div>
+
+                <input type="hidden" name="new_job" value="1">
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+               </form>
+           </div>
+       </div>
+
+   </div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
