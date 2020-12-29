@@ -1,7 +1,7 @@
 # 💼 JobFinder 💼
  
 
-<img src="./public/img/JobWebMobile.gif">
+
 <img src="./public/img/Job.gif">
 
 <p></p>
@@ -14,7 +14,10 @@
 
 - O Anunciante pode cadastrar quantas vagas quiser
 
-- Pagina totalmente responsiva
+- Pagina totalmente responsiva 
+  
+<img src="./public/img/JobWebMobile.gif">
+
 - Aplicação conta com Banco de dados para armazenar as vagas
 - O Candidato pode entrar em contato direto com o anunciante através do email
 
