@@ -2,6 +2,8 @@
  
 
 <img src="./public/img/jobWebMobile.gif">
+<img src="./public/img/job.gif">
+
 <p></p>
 
 # 🔎 Sobre : 
